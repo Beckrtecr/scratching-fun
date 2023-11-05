@@ -8,6 +8,14 @@
     <title>TABS
     </title>
     <style>
+        .link {
+           border: 3px solid rgb(0, 0, 0);
+           background-color: blue;
+           color: black;
+        }
+        .link:hover {
+            background-color: rgba(255, 0, 0, 0.5);
+        }
         .heading {
             text-align: center;
             border: 5px solid blue;
@@ -82,11 +90,11 @@
 
     <div id="my web sites" class="tabcontent">
         <h3>my web sites</h3>
-        <a href="https://beckrtecr.github.io/beckham/">go to my BECKHAM</a>
+        <a href="https://beckrtecr.github.io/beckham/" class="link">go to BECKHAM</a>
         <br>
-        <a href="https://sites.google.com/robbinharris.com/community-coders/home">go to my community coders</a>
+        <a href="https://sites.google.com/robbinharris.com/community-coders/home" class="link">go to community coders</a>
     </div>
-    
+
     <script>
         function openCity(evt, cityName) {
             var i, tabcontent, tablinks;
